@@ -1,0 +1,28 @@
+{
+  "brand_name": "The Sakura & Seoul Journal",
+  "subtitle": "Our Honeymoon Journal",
+  "font_stack": "-apple-system, BlinkMacSystemFont, \"SF Pro Display\", \"SF Pro Text\", sans-serif",
+  "colors": {
+    "ivory": "#FBF4E8",
+    "ivory_card": "#FFF9F1",
+    "matcha": "#5F7A58",
+    "matcha_dark": "#405B3C",
+    "strawberry": "#E8A8B4",
+    "strawberry_soft": "#F7E1E6",
+    "gold": "#C6A15B",
+    "charcoal": "#34312F",
+    "muted_text": "#756E68",
+    "border": "#E8D8C6"
+  },
+  "image_rules": {
+    "hero": "16:9",
+    "experience_card": "4:3",
+    "thumbnail": "1:1",
+    "object_fit": "cover",
+    "overlay": "linear-gradient(180deg, transparent 38%, rgba(28,22,18,.66) 100%)"
+  },
+  "food_rules": {
+    "riya": "Vegetarian or vegan only. Never show egg-based food or visible eggs.",
+    "aakash_only_exceptions": "Egg-focused places may be stored only when explicitly labelled Aakash-only."
+  }
+}

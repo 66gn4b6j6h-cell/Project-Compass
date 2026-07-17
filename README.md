@@ -1,5 +1,25 @@
-# Project Compass Sprint 1 — Self-contained GitHub Pages build
+# The Sakura & Seoul Journal — Sprint 1.1
 
-Upload **index.html** and **.nojekyll** directly to the repository root.
+Corrective build integrating Asset Library v1.
 
-This build embeds CSS, JavaScript, and all photographs directly in index.html. It has no asset paths and no service worker, so the theme and images cannot fail due to folder structure or stale caching.
+## Fixed
+- Correct brand name throughout.
+- Stronger soft-ivory, matcha, strawberry and muted-gold theme.
+- Visible but subtle blossom-paper background.
+- Correct images for Osaka, Kyoto, Fuji, Tokyo and Seoul.
+- Vegetarian/vegan food image with no visible egg.
+- Hero clipping and duplicate overlays removed.
+- Journey city cards reduced for mobile.
+- Bottom navigation no longer covers final content due to increased safe-area padding.
+- No development marker or implementation text printed over imagery.
+
+## Deploy
+Upload the contents of this folder to the GitHub repository root:
+- index.html
+- css/
+- js/
+- assets/
+- data/
+- .nojekyll
+
+Do not upload the outer folder itself.

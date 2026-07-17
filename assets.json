@@ -1,0 +1,90 @@
+{
+  "library_version": "1.0",
+  "brand": "The Sakura & Seoul Journal",
+  "assets": {
+    "home-kamakura-train": {
+      "category": "brand",
+      "alt": "Enoden train arriving at Hase Station in Kamakura",
+      "variants": {
+        "hero_16x9": "assets/brand/home-kamakura-train__hero_16x9.jpg",
+        "card_4x3": "assets/brand/home-kamakura-train__card_4x3.jpg",
+        "thumb_square": "assets/brand/home-kamakura-train__thumb_square.jpg"
+      },
+      "safe_for_riya": true,
+      "contains_egg": false
+    },
+    "osaka-dotonbori-night": {
+      "category": "cities",
+      "alt": "Dotonbori canal and illuminated signs at night in Osaka",
+      "variants": {
+        "hero_16x9": "assets/cities/osaka-dotonbori-night__hero_16x9.jpg",
+        "card_4x3": "assets/cities/osaka-dotonbori-night__card_4x3.jpg",
+        "thumb_square": "assets/cities/osaka-dotonbori-night__thumb_square.jpg"
+      },
+      "safe_for_riya": true,
+      "contains_egg": false
+    },
+    "kyoto-fushimi-inari": {
+      "category": "cities",
+      "alt": "Path through vermilion torii gates at Fushimi Inari in Kyoto",
+      "variants": {
+        "hero_16x9": "assets/cities/kyoto-fushimi-inari__hero_16x9.jpg",
+        "card_4x3": "assets/cities/kyoto-fushimi-inari__card_4x3.jpg",
+        "thumb_square": "assets/cities/kyoto-fushimi-inari__thumb_square.jpg"
+      },
+      "safe_for_riya": true,
+      "contains_egg": false
+    },
+    "fuji-kawaguchiko": {
+      "category": "cities",
+      "alt": "Mount Fuji viewed across Lake Kawaguchiko",
+      "variants": {
+        "hero_16x9": "assets/cities/fuji-kawaguchiko__hero_16x9.jpg",
+        "card_4x3": "assets/cities/fuji-kawaguchiko__card_4x3.jpg",
+        "thumb_square": "assets/cities/fuji-kawaguchiko__thumb_square.jpg"
+      },
+      "safe_for_riya": true,
+      "contains_egg": false
+    },
+    "tokyo-tower-night": {
+      "category": "cities",
+      "alt": "Tokyo Tower illuminated above the Tokyo skyline at night",
+      "variants": {
+        "hero_16x9": "assets/cities/tokyo-tower-night__hero_16x9.jpg",
+        "card_4x3": "assets/cities/tokyo-tower-night__card_4x3.jpg",
+        "thumb_square": "assets/cities/tokyo-tower-night__thumb_square.jpg"
+      },
+      "safe_for_riya": true,
+      "contains_egg": false
+    },
+    "seoul-myeongdong-evening": {
+      "category": "cities",
+      "alt": "Myeongdong and central Seoul viewed at evening",
+      "variants": {
+        "hero_16x9": "assets/cities/seoul-myeongdong-evening__hero_16x9.jpg",
+        "card_4x3": "assets/cities/seoul-myeongdong-evening__card_4x3.jpg",
+        "thumb_square": "assets/cities/seoul-myeongdong-evening__thumb_square.jpg"
+      },
+      "safe_for_riya": true,
+      "contains_egg": false
+    },
+    "vegan-ramen-ts-tantan": {
+      "category": "food",
+      "alt": "Bowl of vegan ramen without egg at T's Tantan",
+      "variants": {
+        "hero_16x9": "assets/food/vegan-ramen-ts-tantan__hero_16x9.jpg",
+        "card_4x3": "assets/food/vegan-ramen-ts-tantan__card_4x3.jpg",
+        "thumb_square": "assets/food/vegan-ramen-ts-tantan__thumb_square.jpg"
+      },
+      "safe_for_riya": true,
+      "contains_egg": false
+    }
+  },
+  "fallbacks": {
+    "osaka_basecamp": "osaka-dotonbori-night",
+    "kyoto_basecamp": "kyoto-fushimi-inari",
+    "fuji_basecamp": "fuji-kawaguchiko",
+    "tokyo_basecamp": "tokyo-tower-night",
+    "seoul_basecamp": "seoul-myeongdong-evening"
+  }
+}
